@@ -1,6 +1,7 @@
 const { src, dest, watch } = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
 const fs = require("fs");
+var gulp = require("gulp");
 var ghPages = require("gulp-gh-pages");
 
 gulp.task("deploy", function () {
