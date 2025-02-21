@@ -1,0 +1,14 @@
+include ./_button.pug
+
+.form   
+    form  
+        .form__wrapper
+            .form__close 
+                button(class="form__close-btn feedback-btn")
+                    div
+                    div 
+            h3.form__title Овладей нейросетями!
+            p.form__desk Получи в подарок доступ ко всем курсам
+            img.form__img(src=imgPath + "form.png", alt="form" width="360")
+            input.form__input(type="email" placeholder="Введите e-mail")
+            +button("Получить доступ", "long-btn form-btn")

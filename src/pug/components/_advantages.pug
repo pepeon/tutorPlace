@@ -1,0 +1,13 @@
+include ./_card.pug
+
+section.advantages  
+    .container 
+        .advantages__wrapper 
+            .advantages__info 
+                h2.advantages__title Преимущества курса
+                p.advantages__desk.
+                    Поможем создать<span> корректный промт</span>, чтобы вы&nbsp;
+                    получили максимально корректный вариант под ваши нужды!
+            .advantages__cards
+                each elem in cards
+                    +card(elem.iconName, elem.title, elem.desk)

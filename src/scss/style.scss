@@ -1,0 +1,11 @@
+@use "mixins";
+@use "reset";
+@use "fonts";
+@use "core";
+
+@use "./blocks/header";
+@use "./blocks/button";
+@use "./blocks/hero";
+@use "./blocks/advantages";
+@use "./blocks/form";
+@use "./media";

@@ -1,0 +1,28 @@
+@mixin min-max($min-width, $max-width) {
+  min-width: $min-width;
+  max-width: $max-width;
+}
+
+@mixin btn(
+  $bd-color,
+  $bg-color,
+  $bdrs,
+  $color,
+  $font-size,
+  $p-top,
+  $p-bottom,
+  $f-family,
+  $f-w
+) {
+  font-family: $f-family;
+  border: 1px solid $bd-color;
+  background-color: $bg-color;
+  border-radius: $bdrs;
+  color: $color;
+  font-weight: $f-w;
+  font-size: $font-size;
+  padding: $p-top $p-bottom;
+  transition: all 0.2s ease-in-out;
+  line-height: 100%;
+  cursor: pointer;
+}

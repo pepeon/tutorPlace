@@ -1,0 +1,40 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 72px;
+}
+.hero__img-wrapper {
+  width: 100%;
+}
+.hero__img {
+  width: 100%;
+}
+.hero__title {
+  font-family: $second-family;
+  font-weight: 500;
+  font-size: clamp(30px, 5vw, 80px);
+  line-height: 90%;
+  letter-spacing: 0.02em;
+  color: $white;
+  padding-bottom: 30px;
+}
+.gradient {
+  font-size: clamp(50px, 7vw, 120px);
+  line-height: 110%;
+  background: linear-gradient(90deg, #f706a3 0%, #5a73ef 44%, #81f3f8 100%);
+  padding-bottom: 6px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero__desk {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  line-height: 110%;
+  color: $white;
+  padding-bottom: 72px;
+}

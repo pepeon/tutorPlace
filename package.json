@@ -1,0 +1,25 @@
+{
+  "name": "tutorplace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/register": "^7.25.9",
+    "browser-sync": "^3.0.3",
+    "core-js": "^3.40.0",
+    "gulp": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.85.0"
+  }
+}

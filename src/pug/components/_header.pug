@@ -1,0 +1,20 @@
+include ./_button.pug
+
+header.header
+            .container
+                .header__wrapper 
+                    .header__logo 
+                        img.header__logo-img(src=iconsPath + "logo.svg", width="42" height="42" alt="logo")
+                        span.header__title AI
+                    nav.header__nav 
+                        ul.header__list 
+                            li.header__item 
+                                a.header__link(href="#") Главная 
+                            li.header__item 
+                                a.header__link(href="#") Преимущества 
+                    +button('Получить доступ', 'small-btn feedback-btn')
+                    .burger__menu 
+                        div 
+                        div 
+                        div 
+            include ./_menu.pug
